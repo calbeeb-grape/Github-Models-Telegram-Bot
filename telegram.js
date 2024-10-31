@@ -55,6 +55,8 @@ export function initializeBot(onMessage, onStart, onStop) {
                         inline_keyboard: [
                             [{ text: 'GPT 4o', callback_data: 'model:gpt-4o' }],
                             [{ text: 'GPT 4o Mini', callback_data: 'model:gpt-4o-mini' }],
+                            [{ text: 'o1 Mini', callback_data: 'model:o1-mini' }],
+                            [{ text: 'o1 Preview', callback_data: 'model:o1-preview' }],
                             [{ text: 'Meta LLaMa 3.1 405b', callback_data: 'model:meta-llama-3.1-405b-instruct' }],
                             [{ text: 'Meta LLaMa 3.1 70b', callback_data: 'model:meta-llama-3.1-70b-instruct' }],
                             [{ text: 'Phi 3', callback_data: 'model:Phi-3-medium-128k-instruct' }],
