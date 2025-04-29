@@ -53,13 +53,13 @@ export function initializeBot(onMessage, onStart, onStop) {
                 const modelOptions = {
                     reply_markup: {
                         inline_keyboard: [
-                            [{ text: 'GPT 4o', callback_data: 'model:gpt-4o' }],
+                            [{ text: 'GPT 4.1', callback_data: 'model:gpt-4.1' }],
                             [{ text: 'GPT 4.1 Mini', callback_data: 'model:gpt-4.1-mini' }],
                             [{ text: 'o1 Mini', callback_data: 'model:o1-mini' }],
                             [{ text: 'o1 Preview', callback_data: 'model:o1-preview' }],
                             [{ text: 'Deepseek v3 0324', callback_data: 'model:DeepSeek-V3-0324' }],
-                            [{ text: 'Meta 4 Scout', callback_data: 'model:meta-llama-4-scout-17b-16e-instruct' }],
-                            [{ text: 'Meta 4 Maverick', callback_data: 'model:llama-4-maverick' }],
+                            [{ text: 'Meta 4 Scout', callback_data: 'model:Llama-4-Scout-17B-16E-Instruct' }],
+                            [{ text: 'Meta 4 Maverick', callback_data: 'model:Llama-4-Maverick-17B-128E-Instruct-FP8' }],
                             [{ text: 'Meta LLaMa 3.1 405b', callback_data: 'model:meta-llama-3.1-405b-instruct' }],
                             [{ text: 'Meta LLaMa 3.1 70b', callback_data: 'model:meta-llama-3.1-70b-instruct' }],
                             [{ text: 'Phi 3', callback_data: 'model:Phi-3-medium-128k-instruct' }],
