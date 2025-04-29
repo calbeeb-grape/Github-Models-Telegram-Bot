@@ -54,18 +54,13 @@ export function initializeBot(onMessage, onStart, onStop) {
                     reply_markup: {
                         inline_keyboard: [
                             [{ text: 'GPT 4.1', callback_data: 'model:gpt-4.1' }],
-                            [{ text: 'GPT 4.1 Mini', callback_data: 'model:gpt-4.1-mini' }],
-                            [{ text: 'o1 Mini', callback_data: 'model:o1-mini' }],
-                            [{ text: 'o1 Preview', callback_data: 'model:o1-preview' }],
+                            [{ text: 'GPT 4.1 Mini(L)', callback_data: 'model:gpt-4.1-mini' }],
+                            [{ text: 'GPT-4o, callback_data: 'model:gpt-4o' }],
                             [{ text: 'Deepseek v3 0324', callback_data: 'model:DeepSeek-V3-0324' }],
                             [{ text: 'Meta 4 Scout', callback_data: 'model:Llama-4-Scout-17B-16E-Instruct' }],
                             [{ text: 'Meta 4 Maverick', callback_data: 'model:Llama-4-Maverick-17B-128E-Instruct-FP8' }],
-                            [{ text: 'Meta LLaMa 3.1 405b', callback_data: 'model:meta-llama-3.1-405b-instruct' }],
-                            [{ text: 'Meta LLaMa 3.1 70b', callback_data: 'model:meta-llama-3.1-70b-instruct' }],
-                            [{ text: 'Phi 3', callback_data: 'model:Phi-3-medium-128k-instruct' }],
-                            [{ text: 'AI21 Jamba 1.5', callback_data: 'model:ai21-jamba-1.5-large' }],
-                            [{ text: 'Mistral Large', callback_data: 'model:Mistral-large' }],
-                            [{ text: 'Cohere Command R+', callback_data: 'model:cohere-command-r-plus' }]
+                            [{ text: 'Phi 4 Multimodal(L)', callback_data: 'model:Phi-4-multimodal-instruct' }],
+                            [{ text: 'MAI-DS-R1', callback_data: 'model:MAI-DS-R1' }],
                         ]
                     }
                 };
